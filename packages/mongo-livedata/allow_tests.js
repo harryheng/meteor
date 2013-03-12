@@ -1,5 +1,3 @@
-(function () {
-
 if (Meteor.isServer) {
   // Set up allow/deny rules for test collections
   Meteor.methods({
@@ -728,5 +726,3 @@ if (Meteor.isServer) {
   });
 }
 
-
-}) ();
